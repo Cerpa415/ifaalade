@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&display=swap'); 
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x:hidden;
+}
+
+/*---------------------------------*/
+/*         Estilos del logo        */
+/*---------------------------------*/
+
+.logo{
+    background-color: #2d3390;
+    object-fit: scale-down;
+}
+
+
+/*---------------------------------*/
+/*       Estilos del carrusel      */
+/*---------------------------------*/
+
+.carousel-inner{
+   max-height: 50rem;
+}
+
+
+/*---------------------------------*/
+/*       Estilos del mapa          */
+/*---------------------------------*/
+
+.ubicacion{
+    width: 100%;
+    height: 700;
+}
+
+#mapa{
+    background-color: #f3f3f3;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+/*---------------------------------*/
+/*       Estilos del footer        */
+/*---------------------------------*/
+
+footer{
+    background-color: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p{
+    color: #f3f3f3;
+
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+/*---------------------------------*/
+/*       Medias querie (Ancha)     */
+/*---------------------------------*/
+
+@media (max-width:1200px){
+    #mapa{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+}
+
+/*---------------------------------*/
+/*    Medias querie (Extra peq)    */
+/*---------------------------------*/
+
+@media (max-width:576px){
+   .icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+   }
+}
